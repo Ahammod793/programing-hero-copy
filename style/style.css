@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+/* 
+font-family: "Lora", serif; */
+*{
+    margin: 0;
+    padding:0;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 13px 18px 13px 18px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    cursor: pointer;
+    border: none;
+}
+#hero{
+    height: 735.2px;
+    background-image:linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url('../assets/hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#hero .hero-section{
+    width: 818.4px;
+    color: white;
+    padding: 5px ;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#hero .hero-section .subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 12px;
+}
+#hero .hero-section .food-header{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 18px;
+}
+#hero .hero-section .description{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 45px;
+}
+
+#card-box{
+    width: 1056px;
+    margin: 0 auto;
+    padding-top:50px;
+}
+#card-box .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+.card-container{
+    margin-top:30px;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+.card{
+    max-width: 330px;
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content:center; 
+    align-items:center;
+}
+.card .image-box{
+    width: 330px;
+}
+.card .image-box img{
+    width: 100%;
+}
+.card .article{
+    text-align: center;
+}
+.card .shop{
+    text-align: center;
+    border-radius: 8px;
+    font-size:bold;
+    font-family: sans-serif;
+    background-color: rgba(82, 195, 3, 0.15);
+    padding: 14px 32px 14px 32px;
+}
+.services{
+    justify-content:center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    width: 1535px;
+    height: 480px;
+    margin:50px auto;
+    gap:20px;
+    
+
+}
+.services .image{
+    width: 770px;
+    background-image:url('../assets/foods.png') ;
+    align-items: center;
+}
+.services .info{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255);
+}
+.services .info .details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.services .info .details .text-info{
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    width: 645px;
+    padding-bottom: 44px;
+}
+.services .text-info .subtitle_{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.services .text-info .description {
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 06;
+}
+.services .info .follow{
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 28px auto;
+}
+.services .info.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:20px;
+    align-items: center;
+    text-align: center;
+}
+.services .info.social a{
+    padding-top: 60px;
+}
