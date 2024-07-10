@@ -159,7 +159,8 @@ font-family: "Lora", serif; */
 }
 .services .info .details .text-info{
     align-items: center;
-    text-align: center;
+
+     text-align: center;
     justify-content: space-between;
     display: flex;
     flex-direction: column;
@@ -195,11 +196,20 @@ font-family: "Lora", serif; */
 .services .info.social{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    gap:20px;
     align-items: center;
     text-align: center;
+    justify-content: space-around;
+   
 }
-.services .info.social a{
-    padding-top: 60px;
+.services .social a i{
+    font-size: xx-large;
+    padding: 32px 16px;
 }
+/* this code is commented because of its not working as expected. You can use it in your code. */
+
+/* .services .social a .modified-insta{
+    background: radial-gradient(103.00% 103.00% at 61% 105%,rgba(140, 58, 170, 0) 64%,rgb(140, 58, 170) 100%);
+} */
+/* .services .social a .modified-pinta{
+    background: rgb(225, 49, 56);
+} */
