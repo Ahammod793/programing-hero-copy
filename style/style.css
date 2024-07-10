@@ -76,16 +76,18 @@ font-family: "Lora", serif; */
     margin: 0 auto;
     padding-top:50px;
 }
-#card-box .title{
+#card-box .info .title{
     color: rgb(16, 16, 16);
     font-family: Work Sans;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 64px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 44px;
     letter-spacing: 0%;
     text-align: center;
+    justify-content: center;
+    align-items: center;
 }
-#card-box .subtitle{
+#card-box .info .subtitle{
     color: rgb(16, 16, 16);
     font-family: Work Sans;
     font-size: 24px;
